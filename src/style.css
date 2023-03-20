@@ -1,0 +1,84 @@
+
+.viewActiva {
+    color: red;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.view {
+    color: white;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home h1{
+    margin-top: 16px;
+}
+
+.imagen{
+    width: 350px;
+}
+
+.personajeView {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personajeView button{
+    margin: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+.detalleView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.personajeView h1{
+    margin: 16px;
+    color: rgb(202, 0, 0);
+}
+
+.boxImg{
+    width: 250px;
+    margin-right: 40px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(151, 151, 151);
+    box-shadow: 6px 6px 16px 4px rgb(214, 214, 214);
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 40px;
+}
+
+.detalleDatos{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 10px;
+    padding: 16px;
+    width: 260px;
+}
+
+.nombrePersonaje{
+    font-size: 36px;
+}
+
+.select{
+    width: 160px;
+    border-radius: 4px;
+}
